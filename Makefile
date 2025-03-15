@@ -8,7 +8,7 @@ BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 
 
 push-no-tag:
-	@echo "$(BRANCH)"
+# @echo "$(BRANCH)"
 	read -p "Enter commit message: " commitmsg; \
 	git add .; \
 	git commit -am "$$commitmsg"; \

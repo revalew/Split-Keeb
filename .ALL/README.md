@@ -42,11 +42,11 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/>
 
-- [`Hand_Wiring_Guide_QMK_Firmware.pdf`](./examples/Hand_Wiring_Guide_QMK_Firmware.pdf) - Hand-wiring guide from the [`QMK website`](https://docs.qmk.fm/hand_wire),
+- [`Hand_Wiring_Guide_QMK_Firmware.pdf`](./examples/Hand_Wiring_Guide_QMK_Firmware.pdf) / [`Hand_Wiring_Guide_QMK_Firmware.png`](./examples/Hand_Wiring_Guide_QMK_Firmware.png) - Hand-wiring guide from the [`QMK website`](https://docs.qmk.fm/hand_wire),
 
 <br/>
 
-- [`How_To_Split_Keyboard_with_RP2040_and_KMK.pdf`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.pdf) - How to split a keyboard with the RP2040 and KMK firmware by [`Sanderg.nl`](https://sanderg.nl/en/posts/how-to-split-keyboard-with-rp2040-and-kmk/).
+- [`How_To_Split_Keyboard_with_RP2040_and_KMK.pdf`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.pdf) / [`How_To_Split_Keyboard_with_RP2040_and_KMK.png`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.png) - How to split a keyboard with the RP2040 and KMK firmware by [`Sanderg.nl`](https://sanderg.nl/en/posts/how-to-split-keyboard-with-rp2040-and-kmk/).
 
 <br/><br/>
 
