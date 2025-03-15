@@ -34,7 +34,7 @@ git remote -v
 
 <br/><br/>
 
-> [!INFO]
+> [!NOTE]
 >
 > If the repository was downloaded as a ZIP file, this step will not work.
 >
