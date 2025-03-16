@@ -80,7 +80,7 @@ This is my first attempt at creating a custom keyboard, and I'm excited to see h
 
 <br/>
 
-- `1x USB-C to USB-C cable` (connect both modules) and `1x USB-C to USB-A cable` (connect the keyboard to the computer from either side)
+- `1x USB-C to USB-C cable` (connect both modules) and `1x USB-C to USB-A cable` (connect the keyboard to the computer from either side, can be swapped out for a USB-C to USB-C cable)
 
 <br/>
 
@@ -104,11 +104,11 @@ This is my first attempt at creating a custom keyboard, and I'm excited to see h
 
 <br/>
 
-- [`~/.All`](./.ALL/) - Directory containing the docs, examples and KMK repository (read the [README](./.ALL/README.md) there),
+- [`~/.ALL`](./.ALL/) - Directory containing the docs, examples and KMK repository (read the [README](./.ALL/README.md) there),
 
 <br/>
 
-- [`~/libs_to_compile/`](./libs_to_compile/) - Directory containing all the libraries (before compilation) and instructions on how to compile them along with the scripts to do it. In my project, I provide the KMK library as a symlink, but the scripts also work with the symlinked library (read the [README](./.libs_to_compile/README.md) there),
+- [`~/libs_to_compile/`](./libs_to_compile/) - Directory containing all the libraries (before compilation) and instructions on how to compile them along with the scripts to do it. In my project, I provide the KMK library as a symlink, but the scripts also work with the symlinked library (read the [README](./libs_to_compile/README.md) there),
 
   - [`~/libs_to_compile/lib/`](./libs_to_compile/lib/) - Directory containing the libraries and custom classes (before compilation),
 
@@ -118,11 +118,11 @@ This is my first attempt at creating a custom keyboard, and I'm excited to see h
 
 - [`~/src/`](./src/) - Directory containing the compiled libraries and the code of the project (directory to sync to the Pico - `"micropico.syncFolder": "src",`),
 
+  - [`lib/`](./src/lib/) - Directory containing all the libraries after compilation.
+
   - [**`boot.py`**](./src/boot.py) - The file that runs before the main program, used to configure the keyboard,
 
   - [**`main.py`**](./src/main.py) - The main file of the project and the program to be executed on startup,
-
-  - [`lib/`](./src/lib/) - Directory containing all the libraries after compilation.
 
 <br/>
 

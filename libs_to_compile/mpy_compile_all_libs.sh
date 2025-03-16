@@ -14,7 +14,7 @@ clear
 # If you're using a different architecture, change it here
 # Use "armv7emsp" for Pico 2 W
 # Use "armv6m" for Pico W
-# Find out your architecture with `~/.BACKUP/architecture_check.py`
+# Find out your architecture with `~/.ALL/architecture_check.py`
 ARCHITECTURE=armv7emsp
 
 # Path to the `mpy-cross` command

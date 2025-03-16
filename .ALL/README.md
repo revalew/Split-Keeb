@@ -6,6 +6,14 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/><br/>
 
+## `.ALL/`
+
+<br/>
+
+- [`architecture_check.py`](./architecture_check.py) - Script to check the architecture of the Pico (`armv6m`, `armv7emsp`, etc. - required for the `.mpy` compilation),
+
+<br/><br/>
+
 ## `docs/`
 
 <br/>
@@ -14,7 +22,7 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/>
 
-- [`RP2350-Plus/`](./docs/RP2350-Plus/) - Documentation, schematics, and `CircuitPython` firmware for the Waveshare RP2350-Plus,
+- [`RP2350-Plus/`](./RP2350-Plus/) - Documentation, schematics, and `CircuitPython` firmware for the Waveshare RP2350-Plus,
 
 <br/>
 
@@ -22,7 +30,11 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/>
 
-- [`porting_to_kmk.md`](./docs/porting_to_kmk.md) - Porting your keyboard to KMK (**coord_mapping** example),
+- [`porting_to_kmk.md`](./docs/porting_to_kmk.md) - Porting your keyboard to KMK (**`coord_mapping`** example),
+
+<br/>
+
+- [`MARKDOWN_FORMATTING.png`](./docs/MARKDOWN_FORMATTING.png) - Markdown Alerts formatting,
 
 <br/>
 
@@ -38,15 +50,19 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/>
 
-- [`Scotto_examples/`](./examples/Scotto_examples/) - KMK examples from [`Joe Scotto`](https://github.com/joe-scotto/scottokeebs),
+- [`Scotto_examples/`](./examples/Scotto_examples/) - KMK examples (and more) by `Joe Scotto`: [`GitHub`](https://github.com/joe-scotto/scottokeebs),
 
 <br/>
 
-- [`Hand_Wiring_Guide_QMK_Firmware.pdf`](./examples/Hand_Wiring_Guide_QMK_Firmware.pdf) / [`Hand_Wiring_Guide_QMK_Firmware.png`](./examples/Hand_Wiring_Guide_QMK_Firmware.png) - Hand-wiring guide from the [`QMK website`](https://docs.qmk.fm/hand_wire),
+- [`tinyboatproductions/`](./examples/tinyboatproductions/) - Custom Pico Numpad using KMK, example by `Tiny Boat Productions`: [`YouTube`](https://www.youtube.com/@tinyboatproductions), [`Instructables`](https://www.instructables.com/member/tinyboatproductions/instructables/),
 
 <br/>
 
-- [`How_To_Split_Keyboard_with_RP2040_and_KMK.pdf`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.pdf) / [`How_To_Split_Keyboard_with_RP2040_and_KMK.png`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.png) - How to split a keyboard with the RP2040 and KMK firmware by [`Sanderg.nl`](https://sanderg.nl/en/posts/how-to-split-keyboard-with-rp2040-and-kmk/).
+- [`Hand_Wiring_Guide_QMK_Firmware.pdf`](./examples/Hand_Wiring_Guide_QMK_Firmware.pdf) / [`Hand_Wiring_Guide_QMK_Firmware.png`](./examples/Hand_Wiring_Guide_QMK_Firmware.png) - Hand-wiring guide from `QMK` documentation: [`website`](https://docs.qmk.fm/hand_wire),
+
+<br/>
+
+- [`How_To_Split_Keyboard_with_RP2040_and_KMK.pdf`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.pdf) / [`How_To_Split_Keyboard_with_RP2040_and_KMK.png`](./examples/How_To_Split_Keyboard_with_RP2040_and_KMK.png) - How to split a keyboard with the RP2040 and KMK firmware by `Sanderg.nl`: [`website`](https://sanderg.nl/en/posts/how-to-split-keyboard-with-rp2040-and-kmk/).
 
 <br/><br/>
 
@@ -58,7 +74,7 @@ This directory contains all the documentation, KMK repo, and examples
 
 <br/>
 
-- [`Makefile`](./kmk_repo/Makefile) - Makefile fetching the updates from the KMK repository and copying them `1:1` to mine repository,
+- [`Makefile`](./kmk_repo/Makefile) - Makefile fetching the updates from the KMK repository and copying them `1:1` to a separate branch in my repository,
 
 <br/>
 

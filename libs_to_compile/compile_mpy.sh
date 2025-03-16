@@ -8,7 +8,7 @@ clear
 # If you're using a different architecture, change it here
 # Use "armv7emsp" for Pico 2 W
 # Use "armv6m" for Pico W
-# Find out your architecture with `~/.BACKUP/architecture_check.py`
+# Find out your architecture with `~/.ALL/architecture_check.py`
 ARCHITECTURE=armv7emsp
 
 # Path to the `mpy-cross` command
@@ -19,10 +19,10 @@ MPY_CROSS_PATH="/run/media/maks/Dokumenty 2/0PROGRAMOWANIE Projekty/micropython/
 # exit 0
 
 # Input folder with .py and .mpy files
-SRC_DIR="classes"
+SRC_DIR="./lib/classes"
 
 # Output folder for .mpy files
-MPY_DIR="../lib/classes"
+MPY_DIR="../src/lib/classes"
 
 # Create the output directory
 mkdir -p "$MPY_DIR"
